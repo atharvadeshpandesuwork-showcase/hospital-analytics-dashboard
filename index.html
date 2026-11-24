@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hospital Analytics Dashboard</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- PROJECT INTRODUCTION -->
+    <section class="project-intro">
+        <div class="intro-content">
+            <span class="project-category">
+                Healthcare Analytics / Business Intelligence
+            </span>
+
+            <h1>Hospital Analysis Dashboard</h1>
+
+            <div class="intro-description">
+                <p>
+                    Hospitals manage large volumes of information across multiple operational
+                    areas, including patient records, doctor details, appointments, medical
+                    services, bed occupancy, and financial transactions.
+
+                    When this information is scattered across different systems, departments,
+                    or individual records, hospital staff may find it difficult to access
+                    relevant information quickly and maintain a unified understanding of
+                    hospital operations.
+
+                    Hospital administrators and staff need a centralized solution that brings
+                    these different information areas together, allowing them to monitor
+                    essential activities, access relevant records, and gain meaningful insights
+                    without navigating multiple disconnected sources.
+                </p>
+
+                <h3>This project aims to:</h3>
+
+                <ul>
+                    <li>Provide a consolidated overview of hospital operations.</li>
+                    <li>Simplify access to patient and doctor information.</li>
+                    <li>Monitor appointments, medical activities, and bed occupancy.</li>
+                    <li>Track patient charges, hospital revenue, and doctor commissions.</li>
+                    <li>Present meaningful insights through interactive visualizations and reports.</li>
+                    <li>Support hospital staff and administrators in monitoring activities and making informed decisions.</li>
+                </ul>
+            </div>
+
+            <div class="project-tags">
+                <span>SQL</span>
+                <span>Python</span>
+                <span>Power BI</span>
+            </div>
+
+            <div class="intro-actions">
+                <a href="#dashboard">Explore Dashboard</a>
+                <a href="#project-details">Project Details</a>
+            </div>
+        </div>
+
+        <!-- Dashboard Preview -->
+        <div class="intro-visual">
+            <img src="images/dashboard-preview.png" alt="Hospital Analytics Dashboard">
+        </div>
+    </section>
+
+
+    <!-- PROJECT HIGHLIGHTS -->
+    <section class="project-highlights">
+        <div class="highlight-card">
+            <h3>Doctor Commission Calculator</h3>
+            <p>
+                Calculate estimated doctor commissions based on patient payments
+                and configurable commission rates.
+            </p>
+        </div>
+
+        <div class="highlight-card">
+            <h3>Dedicated Finance Dashboard</h3>
+            <p>
+                Monitor hospital and financial performance through patient charges,
+                revenue, expenses, doctor commissions and key financial metrics.
+            </p>
+        </div>
+
+        <div class="highlight-card">
+            <h3>Interactive Patient & Doctor Filters</h3>
+            <p>
+                Explore and filter patient and doctor records on the go through
+                an intuitive interface, enabling quick access to relevant
+                information and insights.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="problem-section">
+        <div class="section-heading">
+            <span>PROJECT OVERVIEW</span>
+            <h2>Understanding the Problem</h2>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="problem-statement">
+            <h3>The Problem</h3>
+
+            <p>
+                Hospitals manage large volumes of information across multiple operational areas,
+                including patient records, doctor details, appointments, medical services,
+                bed occupancy, and financial transactions.
+
+                When this information is scattered across different systems, departments,
+                or individual records, hospital staff may find it difficult to access
+                relevant information quickly and maintain a unified understanding of
+                hospital operations.
+
+                <br><br>
+
+                Hospital administrators and staff need a centralized solution that brings
+                these different information areas together, allowing them to monitor
+                essential activities, access relevant records and gain meaningful insights
+                without navigating multiple disconnected resources.
+            </p>
+        </div>
+
+        <!-- Challenges -->
+        <div class="project-challenges">
+            <h3>The Challenge</h3>
+
+            <div class="challenge-grid">
+                <div class="challenge-card">
+                    <h4>Patient Information</h4>
+                    <p>Difficulty accessing patient records and medical details.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h4>Doctor Management</h4>
+                    <p>Limited visibility into doctor activities and commissions.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h4>Financial Tracking</h4>
+                    <p>Monitoring charges, revenue and payouts across records.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h4>Hospital Operations</h4>
+                    <p>Tracking appointments, tests, and bed occupancy.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Objectives -->
+        <div class="project-objectives">
+            <h3>Project Objectives</h3>
+
+            <p>
+                To develop a centralized Hospital Management & Analytics Dashboard
+                that integrates key hospital information into a unified platform.
+
+                <br><br>
+
+                The solution aims to:
+            </p>
+
+            <ul>
+                <li>Provide a consolidated overview of hospital operations.</li>
+                <li>Simplify access to patient and doctor information.</li>
+                <li>Monitor appointments, medical activities and bed occupancy.</li>
+                <li>Track patient charges, hospital revenue and doctor commissions.</li>
+                <li>Present meaningful insights through interactive visualizations and reports.</li>
+                <li>Support hospital staff and administrators in monitoring activities and making informed decisions.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- PROJECT DETAILS -->
+    <section class="project-details" id="project-details">
+
+        <!-- Section Header -->
+        <div class="details-header">
+            <span>TECHNICAL DOCUMENTATION</span>
+            <h2>Project Details</h2>
+            <p>
+                Explore the technologies and implementation
+                behind the Hospital Analytics Dashboard.
+            </p>
+        </div>
+
+        <!-- MAIN TECHNOLOGY NAVIGATION -->
+        <nav class="technology-nav" aria-label="Project technology navigation">
+            <button class="tech-tab active" data-target="overview" aria-selected="true" type="button">
+                Overview
+            </button>
+            <button class="tech-tab" data-target="python" aria-selected="false" type="button">
+                Python
+            </button>
+            <button class="tech-tab" data-target="sql" aria-selected="false" type="button">
+                SQL
+            </button>
+            <button class="tech-tab" data-target="powerbi" aria-selected="false" type="button">
+                Power BI
+            </button>
+            <button class="tech-tab" data-target="excel" aria-selected="false" type="button">
+                Excel
+            </button>
+        </nav>
+
+        <!-- TECHNOLOGY CONTENT -->
+        <div class="technology-content">
+
+            <!-- OVERVIEW PANEL -->
+            <div id="overview" class="tech-panel active">
+                <div class="pipeline-header">
+                    <h3>End-to-End Data Pipeline</h3>
+                    <p>
+                        From synthetic data generation to interactive business intelligence reporting.
+                    </p>
+                </div>
+
+                <div class="pipeline-container">
+                    <div class="pipeline-step">
+                        <h4>01. Python - Data Generation</h4>
+                        <p>Generate synthetic hospital datasets.</p>
+                    </div>
+
+                    <div class="pipeline-arrow">↓</div>
+
+                    <div class="pipeline-step">
+                        <h4>02. Excel - Raw Data</h4>
+                        <p>Store uncleaned generated datasets.</p>
+                    </div>
+
+                    <div class="pipeline-arrow">↓</div>
+
+                    <div class="pipeline-step">
+                        <h4>03. Python - Data Cleaning</h4>
+                        <p>Clean and transform the datasets.</p>
+                    </div>
+
+                    <div class="pipeline-arrow">↓</div>
+
+                    <div class="pipeline-step">
+                        <h4>04. Excel - Cleaned Data</h4>
+                        <p>Export validated datasets.</p>
+                    </div>
+
+                    <div class="pipeline-arrow">↓</div>
+
+                    <div class="pipeline-step">
+                        <h4>05. SQL - Database</h4>
+                        <p>Store data in structured tables.</p>
+                    </div>
+
+                    <div class="pipeline-arrow">↓</div>
+
+                    <div class="pipeline-step">
+                        <h4>06. Power BI - Dashboard</h4>
+                        <p>Build interactive analytical reports.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PYTHON PANEL -->
+            <div id="python" class="tech-panel" hidden>
+                <div class="python-code-viewer">
+                    <!-- Python Code Viewer Header -->
+                    <div class="code-viewer-header">
+                        <div>
+                            <h3>Python Code Explorer</h3>
+                            <p>Explore the scripts used in data generation and cleaning.</p>
+                        </div>
+                        <span class="language-badge">PYTHON</span>
+                    </div>
+
+                    <!-- PYTHON CATEGORY NAVIGATION -->
+                    <div class="python-category-nav">
+                        <button class="python-category active" data-category="generation" type="button">
+                            Data Generation
+                        </button>
+                        <button class="python-category" data-category="cleaning" type="button">
+                            Data Cleaning
+                        </button>
+                    </div>
+
+                    <!-- CODE WORKSPACE -->
+                    <div class="code-workspace">
+                        <!-- FILE EXPLORER -->
+                        <aside class="file-explorer">
+                            <div class="explorer-heading">
+                                <h4>EXPLORER</h4>
+                            </div>
+                            <div class="folder-heading">
+                                <span id="folder-title">DATA GENERATION</span>
+                            </div>
+                            <!-- JavaScript generates file buttons here -->
+                            <div class="file-list" id="file-list"></div>
+                        </aside>
+
+                        <!-- CODE EDITOR -->
+                        <div class="code-editor">
+                            <!-- Editor Toolbar -->
+                            <div class="editor-toolbar">
+                                <span id="active-filename">
+                                    Select a Python file
+                                </span>
+                                <button id="copy-code" type="button" disabled>
+                                    Copy Code
+                                </button>
+                            </div>
+
+                            <!-- Script Description -->
+                            <div class="script-info">
+                                <h4>Script Overview</h4>
+                                <p id="script-description">
+                                    Select a Python script from the explorer
+                                    to view its description and implementation.
+                                </p>
+                            </div>
+
+                            <!-- Code Display -->
+                            <div class="editor-content">
+                                <pre><code id="code-display" class="language-python"># Select a Python file to display its code.</code></pre>
+                            </div>
+
+                            <!-- Editor Status -->
+                            <div class="editor-status">
+                                <span id="code-status">Ready</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SQL PANEL -->
+            <div id="sql" class="tech-panel" hidden>
+                <div class="sql-explorer">
+                    <!-- Header -->
+                    <div class="sql-header">
+                        <div>
+                            <h3>SQL Database Explorer</h3>
+                            <p>Explore the hospital database tables and sample records.</p>
+                        </div>
+                        <span class="sql-language-badge">SQL DATABASE</span>
+                    </div>
+
+                    <!-- Database Workspace -->
+                    <div class="sql-workspace">
+                        <!-- Sidebar -->
+                        <aside class="sql-sidebar">
+                            <div class="sql-database-heading">
+                                <span class="database-icon">▤</span>
+                                <div>
+                                    <h4>HOSPITAL DATABASE</h4>
+                                    <p id="sql-table-count">12 Tables</p>
+                                </div>
+                            </div>
+                            <div class="sql-table-list" id="sql-table-list">
+                                <!-- Table buttons generated by JavaScript -->
+                            </div>
+                        </aside>
+
+                        <!-- Main Content -->
+                        <div class="sql-main">
+                            <!-- Table Header -->
+                            <div class="sql-table-header">
+                                <div class="sql-table-title">
+                                    <div class="sql-table-icon">▦</div>
+                                    <div>
+                                        <h2 id="sql-selected-table">Select a Table</h2>
+                                        <p id="sql-table-description">
+                                            Select a database table to view its records.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="sql-table-actions">
+                                    <span class="sql-record-badge" id="sql-sample-count">
+                                        0 sample records
+                                    </span>
+                                    <button id="copy-sql-query" type="button" disabled>
+                                        Copy SQL Query
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Table Preview -->
+                            <div class="sql-table-container">
+                                <div id="sql-loading" class="sql-message">
+                                    Select a table to load its records.
+                                </div>
+
+                                <div id="sql-error" class="sql-message sql-error" hidden>
+                                    Unable to load table data.
+                                </div>
+
+                                <div class="sql-table-scroll" id="sql-table-scroll" hidden>
+                                    <table class="sql-data-table">
+                                        <thead id="sql-table-head"></thead>
+                                        <tbody id="sql-table-body"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Table Footer -->
+                            <div class="sql-table-footer">
+                                <span id="sql-showing-records">
+                                    Showing 0 records
+                                </span>
+                                <div class="sql-footer-details">
+                                    <span id="sql-current-table">
+                                        Table: —
+                                    </span>
+                                    <span id="sql-total-records">
+                                        Total Records: —
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POWER BI PANEL -->
+            <div id="powerbi" class="tech-panel" hidden>
+
+                <!-- Dashboard Overview -->
+                <div class="powerbi-overview">
+                    <h3>Hospital Analytics Dashboard</h3>
+                    <p>
+                        The hospital analytics dashboard brings together fragmented and inconsistent hospital data into a single, centralized reporting
+                        interface. It provides key stakeholders with an interactive view of hospital operations, making it easier to access, monitor and
+                        understand important information across different departments.
+                        <br><br>
+                        Built using Power BI, the dashboard transforms raw hospital data into meaningful visual reports, enabling stakeholders to explore
+                        information through interactive visualizations, filters and KPIs.
+                    </p>
+                </div>
+
+                <!-- Dashboard Pages Carousel -->
+                <div class="powerbi-pages">
+
+                    <!-- Carousel Section Header -->
+                    <div class="powerbi-pages-header">
+                        <div>
+                            <h3>Dashboard Pages</h3>
+                            <p>Explore the different pages of the Hospital Analytics Dashboard.</p>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Viewport -->
+                    <div class="powerbi-carousel">
+                        <div class="powerbi-carousel-track" id="powerbi-carousel-track">
+
+                            <!-- Page 01: Overview -->
+                            <div class="powerbi-page">
+                                <div class="powerbi-page-heading">
+                                    <span class="page-number">01</span>
+                                    <h3>Overview</h3>
+                                </div>
+
+                                <div class="powerbi-page-content">
+                                    <p>
+                                        The Overview page provides a consolidated summary of important hospital metrics, giving stakeholders a quick
+                                        understanding of overall hospital operations. It brings together information related to patient discharges,
+                                        medicine consumption, bed availability, hospital revenue and upcoming appointments.
+                                    </p>
+
+                                    <div class="powerbi-metrics">
+                                        <div class="powerbi-metric-item">
+                                            <h4>Discharge Information</h4>
+                                            <p>Summary of patient discharge information.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Medicine Consumption</h4>
+                                            <p>Monthly trends in medicine consumption.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Beds Availability</h4>
+                                            <p>Overview of available and occupied beds.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Revenue Analysis</h4>
+                                            <p>Revenue earned by the hospital from different services.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Upcoming Appointments</h4>
+                                            <p>Summary of scheduled upcoming patient appointments.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 02: Patient Information -->
+                            <div class="powerbi-page">
+                                <div class="powerbi-page-heading">
+                                    <span class="page-number">02</span>
+                                    <h3>Patient Information</h3>
+                                </div>
+
+                                <div class="powerbi-page-content">
+                                    <p>
+                                        The Patient Information page provides a detailed view of patients currently available in the hospital database.
+                                        It brings together patient details, medicine consumption and charges associated with the services availed by
+                                        patients, offering a consolidated view of patient-related information.
+                                    </p>
+
+                                    <div class="powerbi-metrics">
+                                        <div class="powerbi-metric-item">
+                                            <h4>Patient Details</h4>
+                                            <p>Information about patients currently available in the hospital database.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Medicine Consumption</h4>
+                                            <p>Details of medicines consumed by individual patients.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Service Charges</h4>
+                                            <p>Charges incurred by patients for the hospital services they have availed.</p>
+                                        </div>
+                                        <div class="powerbi-metric-item">
+                                            <h4>Medicine Quantity</h4>
+                                            <p>Quantity of medicines sold or dispensed to patients.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 03: Doctor Information -->
+                            <div class="powerbi-page">
+                                <div class="powerbi-page-heading">
+                                    <span class="page-number">03</span>
+                                    <h3>Doctor Information</h3>
+                                </div>
+
+                                <div class="powerbi-page-content">
+                                    <p>
+                                        The Doctor Information page provides a consolidated view of individual doctors,
+                                        including their personal details, upcoming appointments, commission calculations
+                                        and key performance indicators. It enables users to explore doctor-specific
+                                        information and calculate estimated commissions on the go.
+                                    </p>
+
+                                    <div class="powerbi-metrics">
+                                        <div class="powerbi-metric-item">
+                                            <h4>Doctor Details</h4>
+                                            <p>Access individual doctor information, including personal details, specialization and department.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Upcoming Appointments</h4>
+                                            <p>View upcoming appointments scheduled for the selected doctor.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Commission Calculator</h4>
+                                            <p>Calculate estimated doctor commissions based on patient payments and applicable commission rates.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Doctor KPIs</h4>
+                                            <p>Monitor key performance indicators associated with the selected doctor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 04: Hospital -->
+                            <div class="powerbi-page">
+                                <div class="powerbi-page-heading">
+                                    <span class="page-number">04</span>
+                                    <h3>Hospital</h3>
+                                </div>
+
+                                <div class="powerbi-page-content">
+                                    <p>
+                                        The Hospital page provides an overview of hospital operations by bringing together
+                                        information related to patient tests, doctor appointments, surgeries and bed
+                                        availability. It enables stakeholders to monitor important medical activities
+                                        and access operational information in one place.
+                                    </p>
+
+                                    <div class="powerbi-metrics">
+                                        <div class="powerbi-metric-item">
+                                            <h4>Patient Age Analysis</h4>
+                                            <p>View the distribution of patients across different age categories.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Patient Tests</h4>
+                                            <p>Explore patient test results, completion status and clinical notes.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Doctor Appointments</h4>
+                                            <p>View doctor-wise appointments along with patient details, reasons and prescribed actions.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Surgery Information</h4>
+                                            <p>Access surgery schedules, dates, timings and related patient information.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Bed Availability</h4>
+                                            <p>Monitor available and occupied beds across different room categories.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 05: Finance -->
+                            <div class="powerbi-page">
+                                <div class="powerbi-page-heading">
+                                    <span class="page-number">05</span>
+                                    <h3>Finance</h3>
+                                </div>
+
+                                <div class="powerbi-page-content">
+                                    <p>
+                                        The Finance page provides a consolidated view of the hospital's financial
+                                        performance. It brings together billing information, patient charges, salary
+                                        expenses, doctor commissions, medicine sales and stock details, allowing
+                                        stakeholders to monitor important financial metrics in one place.
+                                    </p>
+
+                                    <div class="powerbi-metrics">
+                                        <div class="powerbi-metric-item">
+                                            <h4>Hospital KPIs</h4>
+                                            <p>Monitor patient count, doctor count, staff count, total bills and total bill amount.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Doctor &amp; Staff Salaries</h4>
+                                            <p>Track total and average doctor salaries, along with staff salary expenses.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Doctor Commissions</h4>
+                                            <p>Monitor doctor commission expenses associated with hospital operations.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Monthly Medicine Sales</h4>
+                                            <p>Analyse medicine sales trends across different months.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Patient Charges Analysis</h4>
+                                            <p>Explore charges generated from surgery, room, tests, other services, fees and discounts.</p>
+                                        </div>
+
+                                        <div class="powerbi-metric-item">
+                                            <h4>Medicine Stock Status</h4>
+                                            <p>Compare medicine stock and sales levels, including supplier-wise stock information.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Carousel Navigation -->
+                        <div class="powerbi-carousel-navigation">
+                            <button type="button" class="powerbi-carousel-button" id="powerbi-prev" aria-label="Previous dashboard page" disabled>
+                                &#8592;
+                            </button>
+
+                            <div class="powerbi-carousel-indicators" id="powerbi-indicators" aria-label="Choose dashboard page"></div>
+
+                            <span class="powerbi-page-counter" id="powerbi-page-counter" aria-live="polite">01 / 02</span>
+
+                            <button type="button" class="powerbi-carousel-button" id="powerbi-next" aria-label="Next dashboard page">
+                                &#8594;
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXCEL PANEL -->
+            <div id="excel" class="tech-panel" hidden>
+                <div class="excel-documentation">
+
+                    <!-- Header -->
+                    <div class="excel-header">
+                        <div>
+                            <h3>Excel – Data Storage & Inspection</h3>
+                            <p>
+                                Explore how Excel was used to store, view
+                                and inspect raw and cleaned datasets.
+                            </p>
+                        </div>
+
+                        <span class="language-badge">MICROSOFT EXCEL</span>
+                    </div>
+
+                    <!-- Overview -->
+                    <div class="excel-overview">
+                        <h3>Role of Excel in the Project</h3>
+
+                        <p>
+                            Excel was used as an intermediate storage and
+                            inspection tool during the data preparation
+                            process. It maintained both uncleaned and
+                            cleaned datasets generated through Python.
+                        </p>
+                    </div>
+
+                    <!-- Activities -->
+                    <div class="excel-activities">
+                        <div class="excel-activity-card">
+                            <div class="excel-card-icon">01</div>
+                            <h4>Uncleaned Data Storage</h4>
+                            <p>
+                                Stored raw datasets generated through Python
+                                before the data cleaning process.
+                            </p>
+                        </div>
+
+                        <div class="excel-activity-card">
+                            <div class="excel-card-icon">02</div>
+                            <h4>Cleaned Data Storage</h4>
+                            <p>
+                                Stored processed datasets exported from
+                                Python after applying data cleaning
+                                operations.
+                            </p>
+                        </div>
+
+                        <div class="excel-activity-card">
+                            <div class="excel-card-icon">03</div>
+                            <h4>Data Inspection</h4>
+                            <p>
+                                Used to view and inspect raw and cleaned
+                                records before transferring the cleaned
+                                datasets into SQL.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Workflow -->
+                    <div class="excel-workflow">
+                        <h3>Excel in the Data Pipeline</h3>
+
+                        <p>
+                            Excel acted as an intermediate storage layer
+                            between Python data processing and SQL.
+                        </p>
+
+                        <div class="excel-flow">
+                            <div class="excel-flow-item">
+                                <span>01</span>
+                                <h4>Python</h4>
+                                <p>Data Generation</p>
+                            </div>
+
+                            <div class="excel-flow-arrow">→</div>
+
+                            <div class="excel-flow-item">
+                                <span>02</span>
+                                <h4>Excel</h4>
+                                <p>Raw Data</p>
+                            </div>
+
+                            <div class="excel-flow-arrow">→</div>
+
+                            <div class="excel-flow-item">
+                                <span>03</span>
+                                <h4>Python</h4>
+                                <p>Data Cleaning</p>
+                            </div>
+
+                            <div class="excel-flow-arrow">→</div>
+
+                            <div class="excel-flow-item">
+                                <span>04</span>
+                                <h4>Excel</h4>
+                                <p>Cleaned Data</p>
+                            </div>
+
+                            <div class="excel-flow-arrow">→</div>
+
+                            <div class="excel-flow-item">
+                                <span>05</span>
+                                <h4>SQL</h4>
+                                <p>Database Storage</p>
+                            </div>
+
+                            <div class="excel-flow-arrow">→</div>
+
+                            <div class="excel-flow-item">
+                                <span>06</span>
+                                <h4>Power BI</h4>
+                                <p>Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================
+         EXPLORE DASHBOARD SECTION
+    ===================================== -->
+    <section class="explore-dashboard" id="dashboard">
+
+        <!-- Section Header -->
+        <div class="dashboard-section-header">
+            <span>INTERACTIVE DASHBOARD PREVIEW</span>
+            <h2>Explore Dashboard</h2>
+            <p>
+                Explore the different sections of the Hospital Analytics
+                Dashboard and discover how hospital information is
+                presented through interactive visual reports.
+            </p>
+        </div>
+
+        <!-- Dashboard Carousel -->
+        <div class="dashboard-carousel">
+
+            <!-- Carousel Track -->
+            <div class="dashboard-carousel-viewport">
+                <div class="dashboard-carousel-track" id="dashboard-track">
+
+                    <!-- SLIDE 01: HOME -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">01</span>
+                                <h3>Home Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Home page serves as the main landing page
+                                of the Hospital Analytics Dashboard, providing
+                                navigation to different dashboard sections.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-home.png"
+                                alt="Hospital Dashboard Home Page"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 02: OVERVIEW -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">02</span>
+                                <h3>Overview Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Overview page provides a consolidated
+                                summary of important hospital metrics,
+                                including patient discharges, medicine
+                                consumption, bed availability, revenue
+                                and upcoming appointments.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-overview.png"
+                                alt="Hospital Overview Dashboard"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 03: PATIENT -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">03</span>
+                                <h3>Patient Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Patient page provides access to patient
+                                information, medicine consumption, service
+                                charges and medicine quantities associated
+                                with individual patients.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-patient.png"
+                                alt="Hospital Patient Dashboard"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 04: DOCTOR -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">04</span>
+                                <h3>Doctor Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Doctor page displays individual doctor
+                                information, upcoming appointments, doctor
+                                performance indicators and an interactive
+                                commission calculator.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-doctor.png"
+                                alt="Hospital Doctor Dashboard"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 05: HOSPITAL -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">05</span>
+                                <h3>Hospital Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Hospital page brings together operational
+                                information related to patient tests, doctor
+                                appointments, surgeries and bed availability.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-hospital.png"
+                                alt="Hospital Operations Dashboard"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 06: FINANCE -->
+                    <div class="dashboard-slide">
+                        <div class="dashboard-slide-header">
+                            <div>
+                                <span class="dashboard-slide-number">06</span>
+                                <h3>Finance Dashboard</h3>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-slide-description">
+                            <p>
+                                The Finance page provides a consolidated view
+                                of hospital financial metrics, including
+                                patient charges, billing, salaries, doctor
+                                commissions, medicine sales and stock status.
+                            </p>
+                        </div>
+
+                        <div class="dashboard-image-container">
+                            <img
+                                src="images/dashboard-finance.png"
+                                alt="Hospital Finance Dashboard"
+                                loading="lazy"
+                            >
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CAROUSEL NAVIGATION -->
+            <div class="dashboard-carousel-navigation">
+                <button
+                    type="button"
+                    id="dashboard-prev"
+                    class="dashboard-nav-button"
+                    aria-label="Previous dashboard"
+                    disabled
+                >
+                    &#8592;
+                </button>
+
+                <div
+                    class="dashboard-carousel-indicators"
+                    id="dashboard-indicators"
+                >
+                </div>
+
+                <span
+                    class="dashboard-page-counter"
+                    id="dashboard-counter"
+                    aria-live="polite"
+                >
+                    01 / 06
+                </span>
+
+                <button
+                    type="button"
+                    id="dashboard-next"
+                    class="dashboard-nav-button"
+                    aria-label="Next dashboard"
+                >
+                    &#8594;
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROJECT FILES SECTION -->
+    <section class="project-files" id="project-files">
+        <div class="project-files-content">
+            <span class="project-files-label">PROJECT RESOURCES</span>
+
+            <h2>Explore Project Files</h2>
+
+            <p>
+                Access the project resources, datasets, Python scripts,
+                SQL files and supporting documentation.
+            </p>
+
+            <a
+                href="https://drive.google.com/file/d/1CZ-H0itm7FLF7PyOqS-hW5wqhzaYdWks/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-files-button"
+            >
+                View Project Files
+                <span>↗</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <!-- Prism must load before the code viewer -->
+    <script src="js/prism.js"></script>
+
+    <!-- Main Technology Navigation -->
+    <script src="js/main.js"></script>
+
+    <!-- Python Code Viewer -->
+    <script src="js/code-viewer.js"></script>
+
+    <!-- SQL Viewer -->
+    <script src="js/sql-viewer.js"></script>
+
+    <!-- Power BI Dashboard Pages Carousel -->
+    <script src="js/carousel.js"></script>
+
+    <!-- Power BI Dashboard Images Carousel -->
+    <script src="js/dashboard-carousel.js"></script>
+
+</body>
+</html>
