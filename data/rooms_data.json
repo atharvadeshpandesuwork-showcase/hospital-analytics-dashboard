@@ -1,0 +1,116 @@
+{
+	"table_name": "Rooms",
+  	"total_records": 10,
+  	"columns": [
+		"Room_Id",
+		"Department_Id",
+		"Room_Type",
+		"Floor",
+		"Capacity",
+		"Status",
+		"Daily_Charge",
+		"Avg_Monthly_Maintenance_Cost"
+  	],
+	"records":[
+	{
+		"Room_Id" : "R001",
+		"Department_Id" : "DEPT001",
+		"Room_Type" : "General",
+		"Floor" : 3,
+		"Capacity" : 4,
+		"Status" : "Available",
+		"Daily_Charge" : 1000,
+		"Avg_Monthly_Maintenance_Cost" : 1000
+	},
+	{
+		"Room_Id" : "R002",
+		"Department_Id" : "DEPT001",
+		"Room_Type" : "Private",
+		"Floor" : 3,
+		"Capacity" : 1,
+		"Status" : "Occupied",
+		"Daily_Charge" : 3000,
+		"Avg_Monthly_Maintenance_Cost" : 3000
+	},
+	{
+		"Room_Id" : "R003",
+		"Department_Id" : "DEPT001",
+		"Room_Type" : "ICU",
+		"Floor" : 3,
+		"Capacity" : 1,
+		"Status" : "Available",
+		"Daily_Charge" : 5000,
+		"Avg_Monthly_Maintenance_Cost" : 5000
+	},
+	{
+		"Room_Id" : "R004",
+		"Department_Id" : "DEPT002",
+		"Room_Type" : "General",
+		"Floor" : 4,
+		"Capacity" : 4,
+		"Status" : "Available",
+		"Daily_Charge" : 1000,
+		"Avg_Monthly_Maintenance_Cost" : 1000
+	},
+	{
+		"Room_Id" : "R005",
+		"Department_Id" : "DEPT002",
+		"Room_Type" : "Private",
+		"Floor" : 4,
+		"Capacity" : 1,
+		"Status" : "Occupied",
+		"Daily_Charge" : 3000,
+		"Avg_Monthly_Maintenance_Cost" : 3000
+	},
+	{
+		"Room_Id" : "R006",
+		"Department_Id" : "DEPT002",
+		"Room_Type" : "ICU",
+		"Floor" : 4,
+		"Capacity" : 1,
+		"Status" : "Available",
+		"Daily_Charge" : 5000,
+		"Avg_Monthly_Maintenance_Cost" : 5000
+	},
+	{
+		"Room_Id" : "R007",
+		"Department_Id" : "DEPT003",
+		"Room_Type" : "General",
+		"Floor" : 2,
+		"Capacity" : 4,
+		"Status" : "Available",
+		"Daily_Charge" : 1000,
+		"Avg_Monthly_Maintenance_Cost" : 1000
+	},
+	{
+		"Room_Id" : "R008",
+		"Department_Id" : "DEPT003",
+		"Room_Type" : "Private",
+		"Floor" : 2,
+		"Capacity" : 1,
+		"Status" : "Occupied",
+		"Daily_Charge" : 3000,
+		"Avg_Monthly_Maintenance_Cost" : 3000
+	},
+	{
+		"Room_Id" : "R009",
+		"Department_Id" : "DEPT003",
+		"Room_Type" : "ICU",
+		"Floor" : 2,
+		"Capacity" : 1,
+		"Status" : "Available",
+		"Daily_Charge" : 5000,
+		"Avg_Monthly_Maintenance_Cost" : 5000
+	},
+	{
+		"Room_Id" : "R010",
+		"Department_Id" : "DEPT004",
+		"Room_Type" : "General",
+		"Floor" : 5,
+		"Capacity" : 4,
+		"Status" : "Available",
+		"Daily_Charge" : 1000,
+		"Avg_Monthly_Maintenance_Cost" : 1000
+	}
+	]
+}

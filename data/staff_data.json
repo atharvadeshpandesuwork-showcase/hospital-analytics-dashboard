@@ -1,0 +1,138 @@
+{
+	"table_name": "Staff",
+  	"total_records": 10,
+  	"columns": [
+		"Staff_Id",
+		"Staff_Name",
+		"Department_Id",
+		"Role",
+		"Salary",
+		"Joining_Date",
+		"Shift",
+		"Phone_Number",
+		"Email_Address",
+		"Address"
+  	],
+	"records":[
+	{
+		"Staff_Id" : "S001",
+		"Staff_Name" : "Anand kumar",
+		"Department_Id" : "DEPT001",
+		"Role" : "Nurse",
+		"Salary" : 45000,
+		"Joining_Date" : "2018-01-10",
+		"Shift" : "Morning",
+		"Phone_Number" : 9876543210,
+		"Email_Address" : "anand.kumar@hospital.com",
+		"Address" : "123 staff quarters   hospital campus"
+	},
+	{
+		"Staff_Id" : "S002",
+		"Staff_Name" : "Sunita verma",
+		"Department_Id" : "DEPT001",
+		"Role" : "Nurse",
+		"Salary" : 42000,
+		"Joining_Date" : "2019-03-15",
+		"Shift" : "Evening",
+		"Phone_Number" : 8765432109,
+		"Email_Address" : "sunita.verma@hospital.com",
+		"Address" : "124 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S003",
+		"Staff_Name" : "Rajiv singh",
+		"Department_Id" : "DEPT001",
+		"Role" : "Ward Boy",
+		"Salary" : 25000,
+		"Joining_Date" : "2020-06-20",
+		"Shift" : "Night",
+		"Phone_Number" : 7654321098,
+		"Email_Address" : "rajiv.singh@hospital.com",
+		"Address" : "125 staff quarters   hospital campus"
+	},
+	{
+		"Staff_Id" : "S004",
+		"Staff_Name" : "Meena patel",
+		"Department_Id" : "DEPT002",
+		"Role" : "Nurse",
+		"Salary" : 44000,
+		"Joining_Date" : "2018-12-05",
+		"Shift" : "Morning",
+		"Phone_Number" : 6543210987,
+		"Email_Address" : "meena.patel@hospital.com",
+		"Address" : "126 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S005",
+		"Staff_Name" : "Suresh nair",
+		"Department_Id" : "DEPT002",
+		"Role" : "Nurse",
+		"Salary" : 43000,
+		"Joining_Date" : "2019-07-18",
+		"Shift" : "Evening",
+		"Phone_Number" : 5432109876,
+		"Email_Address" : "suresh.nair@hospital.com",
+		"Address" : "127 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S006",
+		"Staff_Name" : "Kavita menon",
+		"Department_Id" : "DEPT002",
+		"Role" : "Ward Boy",
+		"Salary" : 26000,
+		"Joining_Date" : "2020-09-25",
+		"Shift" : "Night",
+		"Phone_Number" : 4321098765,
+		"Email_Address" : "kavita.menon@hospital.com",
+		"Address" : "128 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S007",
+		"Staff_Name" : "Rahul sharma",
+		"Department_Id" : "DEPT003",
+		"Role" : "Nurse",
+		"Salary" : 46000,
+		"Joining_Date" : "2017-08-15",
+		"Shift" : "Morning",
+		"Phone_Number" : 3210987654,
+		"Email_Address" : "rahul.sharma@hospital.com",
+		"Address" : "129 staff quarters    hospital campus"
+	},
+	{
+		"Staff_Id" : "S008",
+		"Staff_Name" : "Priya singh",
+		"Department_Id" : "DEPT003",
+		"Role" : "Nurse",
+		"Salary" : 44000,
+		"Joining_Date" : "2018-10-20",
+		"Shift" : "Evening",
+		"Phone_Number" : 2109876543,
+		"Email_Address" : "priya.singh@hospital.com",
+		"Address" : "130 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S009",
+		"Staff_Name" : "Amit kumar",
+		"Department_Id" : "DEPT003",
+		"Role" : "Ward Boy",
+		"Salary" : 27000,
+		"Joining_Date" : "2019-10-12",
+		"Shift" : "Night",
+		"Phone_Number" : 1098765432,
+		"Email_Address" : "amit.kumar@hospital.com",
+		"Address" : "131 staff quarters hospital campus"
+	},
+	{
+		"Staff_Id" : "S010",
+		"Staff_Name" : "Neha joshi",
+		"Department_Id" : "DEPT004",
+		"Role" : "Nurse",
+		"Salary" : 45000,
+		"Joining_Date" : "2018-02-05",
+		"Shift" : "Morning",
+		"Phone_Number" : 9876543220,
+		"Email_Address" : "neha.joshi@hospital.com",
+		"Address" : "132   staff quarters   hospital campus"
+	}
+	]
+}

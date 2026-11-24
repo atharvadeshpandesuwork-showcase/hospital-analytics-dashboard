@@ -1,0 +1,94 @@
+{
+	"table_name": "Departments",
+  	"total_records": 10,
+  	"columns": [
+    	"Department_Id",
+    	"Dept_Name",
+    	"Floor",
+    	"Head_Doctor_Id",
+    	"Total_Staff",
+    	"Phone_Extension"
+  ],
+	"records":[
+	{
+		"Department_Id" : "DEPT001",
+		"Dept_Name" : "Cardiology",
+		"Floor" : 3,
+		"Head_Doctor_Id" : "D001",
+		"Total_Staff" : 15,
+		"Phone_Extension" : 1001
+	},
+	{
+		"Department_Id" : "DEPT002",
+		"Dept_Name" : "Neurology",
+		"Floor" : 4,
+		"Head_Doctor_Id" : "D002",
+		"Total_Staff" : 12,
+		"Phone_Extension" : 1002
+	},
+	{
+		"Department_Id" : "DEPT003",
+		"Dept_Name" : "Orthopedics",
+		"Floor" : 2,
+		"Head_Doctor_Id" : "D003",
+		"Total_Staff" : 18,
+		"Phone_Extension" : 1003
+	},
+	{
+		"Department_Id" : "DEPT004",
+		"Dept_Name" : "Gynecology",
+		"Floor" : 5,
+		"Head_Doctor_Id" : "D004",
+		"Total_Staff" : 14,
+		"Phone_Extension" : 1004
+	},
+	{
+		"Department_Id" : "DEPT005",
+		"Dept_Name" : "Pediatrics",
+		"Floor" : 1,
+		"Head_Doctor_Id" : "D005",
+		"Total_Staff" : 16,
+		"Phone_Extension" : 1005
+	},
+	{
+		"Department_Id" : "DEPT006",
+		"Dept_Name" : "Dermatology",
+		"Floor" : 3,
+		"Head_Doctor_Id" : "D006",
+		"Total_Staff" : 8,
+		"Phone_Extension" : 1006
+	},
+	{
+		"Department_Id" : "DEPT007",
+		"Dept_Name" : "Gastroenterology",
+		"Floor" : 4,
+		"Head_Doctor_Id" : "D007",
+		"Total_Staff" : 10,
+		"Phone_Extension" : 1007
+	},
+	{
+		"Department_Id" : "DEPT008",
+		"Dept_Name" : "Ophthalmology",
+		"Floor" : 2,
+		"Head_Doctor_Id" : "D008",
+		"Total_Staff" : 9,
+		"Phone_Extension" : 1008
+	},
+	{
+		"Department_Id" : "DEPT009",
+		"Dept_Name" : "Ent",
+		"Floor" : 5,
+		"Head_Doctor_Id" : "D009",
+		"Total_Staff" : 7,
+		"Phone_Extension" : 1009
+	},
+	{
+		"Department_Id" : "DEPT010",
+		"Dept_Name" : "Psychiatry",
+		"Floor" : 6,
+		"Head_Doctor_Id" : "D010",
+		"Total_Staff" : 6,
+		"Phone_Extension" : 1010
+	}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"table_name": "Medical_Tests",
+  	"total_records": 15,
+  	"columns": [
+		"Test_Id",
+		"Test_Name",
+		"Category",
+		"Department_Id",
+		"Cost",
+		"Duration_Minutes",
+		"Fasting_Required"
+  	],
+	"records":[
+	{
+		"Test_Id" : "TEST001",
+		"Test_Name" : "Complete Blood Count",
+		"Category" : "Hematology",
+		"Department_Id" : "DEPT015",
+		"Cost" : 500,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST002",
+		"Test_Name" : "Blood Glucose",
+		"Category" : "Biochemistry",
+		"Department_Id" : "DEPT012",
+		"Cost" : 300,
+		"Duration_Minutes" : 15,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST003",
+		"Test_Name" : "Lipid Profile",
+		"Category" : "Biochemistry",
+		"Department_Id" : "DEPT012",
+		"Cost" : 800,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST004",
+		"Test_Name" : "Liver Function Test",
+		"Category" : "Biochemistry",
+		"Department_Id" : "DEPT007",
+		"Cost" : 1000,
+		"Duration_Minutes" : 45,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST005",
+		"Test_Name" : "Kidney Function Test",
+		"Category" : "Biochemistry",
+		"Department_Id" : "DEPT013",
+		"Cost" : 1000,
+		"Duration_Minutes" : 45,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST006",
+		"Test_Name" : "Thyroid Profile",
+		"Category" : "Endocrinology",
+		"Department_Id" : "DEPT012",
+		"Cost" : 1200,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "Yes"
+	},
+	{
+		"Test_Id" : "TEST007",
+		"Test_Name" : "Electrocardiogram (Ecg)",
+		"Category" : "Cardiology",
+		"Department_Id" : "DEPT001",
+		"Cost" : 1500,
+		"Duration_Minutes" : 20,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST008",
+		"Test_Name" : "X-Ray Chest",
+		"Category" : "Radiology",
+		"Department_Id" : "DEPT014",
+		"Cost" : 800,
+		"Duration_Minutes" : 15,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST009",
+		"Test_Name" : "Ct Scan",
+		"Category" : "Radiology",
+		"Department_Id" : "DEPT014",
+		"Cost" : 4500,
+		"Duration_Minutes" : 45,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST010",
+		"Test_Name" : "Mri Scan",
+		"Category" : "Radiology",
+		"Department_Id" : "DEPT014",
+		"Cost" : 7500,
+		"Duration_Minutes" : 60,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST011",
+		"Test_Name" : "Ultrasound",
+		"Category" : "Radiology",
+		"Department_Id" : "DEPT014",
+		"Cost" : 1800,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "Depends"
+	},
+	{
+		"Test_Id" : "TEST012",
+		"Test_Name" : "Urine Analysis",
+		"Category" : "Pathology",
+		"Department_Id" : "DEPT013",
+		"Cost" : 400,
+		"Duration_Minutes" : 60,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST013",
+		"Test_Name" : "Stool Analysis",
+		"Category" : "Pathology",
+		"Department_Id" : "DEPT007",
+		"Cost" : 500,
+		"Duration_Minutes" : 60,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST014",
+		"Test_Name" : "Pap Smear",
+		"Category" : "Gynecology",
+		"Department_Id" : "DEPT004",
+		"Cost" : 1200,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "No"
+	},
+	{
+		"Test_Id" : "TEST015",
+		"Test_Name" : "Mammogram",
+		"Category" : "Radiology",
+		"Department_Id" : "DEPT004",
+		"Cost" : 2000,
+		"Duration_Minutes" : 30,
+		"Fasting_Required" : "No"
+	}
+	]
+}

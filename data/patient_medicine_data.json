@@ -1,0 +1,73 @@
+{
+	"table_name": "Medicine_Patient",
+  	"total_records": 10,
+  	"columns": [
+    	"Patient_Id",
+		"Medicine_Id",
+		"Qty",
+		"Dispensed_Date"
+  	],
+	"records":[
+		{
+			"Patient_Id" : "P021",
+			"Medicine_Id" : "MED002",
+			"Qty" : 3,
+			"Dispensed_Date" : "2023-07-24"
+		},
+		{
+			"Patient_Id" : "P024",
+			"Medicine_Id" : "MED002",
+			"Qty" : 11,
+			"Dispensed_Date" : "2023-06-06"
+		},
+		{
+			"Patient_Id" : "P001",
+			"Medicine_Id" : "MED002",
+			"Qty" : 6,
+			"Dispensed_Date" : "2023-07-13"
+		},
+		{
+			"Patient_Id" : "P018",
+			"Medicine_Id" : "MED004",
+			"Qty" : 11,
+			"Dispensed_Date" : "2023-08-30"
+		},
+		{
+			"Patient_Id" : "P009",
+			"Medicine_Id" : "MED013",
+			"Qty" : 3,
+			"Dispensed_Date" : "2023-06-24"
+		},
+		{
+			"Patient_Id" : "P009",
+			"Medicine_Id" : "MED003",
+			"Qty" : 6,
+			"Dispensed_Date" : "2023-08-09"
+		},
+		{
+			"Patient_Id" : "P004",
+			"Medicine_Id" : "MED006",
+			"Qty" : 8,
+			"Dispensed_Date" : "2023-10-16"
+		},
+		{
+			"Patient_Id" : "P024",
+			"Medicine_Id" : "MED008",
+			"Qty" : 11,
+			"Dispensed_Date" : "2023-06-15"
+		},
+		{
+			"Patient_Id" : "P010",
+			"Medicine_Id" : "MED014",
+			"Qty" : 12,
+			"Dispensed_Date" : "2023-08-15"
+		},
+		{
+			"Patient_Id" : "P003",
+			"Medicine_Id" : "MED001",
+			"Qty" : 6,
+			"Dispensed_Date" : "2023-07-28"
+		}
+
+	]
+}

@@ -1,0 +1,151 @@
+{
+	"table_name": "Medical_Stock",
+  	"total_records": 10,
+  	"columns": [
+		"Medicine_Id",
+		"Medicine_Name",
+		"Category",
+		"Supplier_Id",
+		"Cost_Price",
+		"Unit_Price",
+		"Stock_Qty",
+		"Expiry_Date",
+		"Manufacture_Date",
+		"Batch_Number",
+		"Reorder_Level"
+  	],
+
+	"records":[
+	{
+		"Medicine_Id" : "MED001",
+		"Medicine_Name" : "Paracetamol",
+		"Category" : "Pain Relief",
+		"Supplier_Id" : "SUP001",
+		"Cost_Price" : 2.5,
+		"Unit_Price" : 5,
+		"Stock_Qty" : 500,
+		"Expiry_Date" : "2024-12-31",
+		"Manufacture_Date" : "2023-01-15",
+		"Batch_Number" : "BT12345",
+		"Reorder_Level" : 100
+	},
+	{
+		"Medicine_Id" : "MED002",
+		"Medicine_Name" : "Amoxicillin",
+		"Category" : "Antibiotic",
+		"Supplier_Id" : "SUP002",
+		"Cost_Price" : 5,
+		"Unit_Price" : 10,
+		"Stock_Qty" : 300,
+		"Expiry_Date" : "2024-06-30",
+		"Manufacture_Date" : "2023-02-20",
+		"Batch_Number" : "BT23456",
+		"Reorder_Level" : 50
+	},
+	{
+		"Medicine_Id" : "MED003",
+		"Medicine_Name" : "Omeprazole",
+		"Category" : "Antacid",
+		"Supplier_Id" : "SUP003",
+		"Cost_Price" : 4,
+		"Unit_Price" : 8,
+		"Stock_Qty" : 400,
+		"Expiry_Date" : "2025-03-31",
+		"Manufacture_Date" : "2023-10-03",
+		"Batch_Number" : "BT34567",
+		"Reorder_Level" : 75
+	},
+	{
+		"Medicine_Id" : "MED004",
+		"Medicine_Name" : "Loratadine",
+		"Category" : "Antihistamine",
+		"Supplier_Id" : "SUP001",
+		"Cost_Price" : 3,
+		"Unit_Price" : 6,
+		"Stock_Qty" : 350,
+		"Expiry_Date" : "2024-09-30",
+		"Manufacture_Date" : "2023-01-25",
+		"Batch_Number" : "BT45678",
+		"Reorder_Level" : 60
+	},
+	{
+		"Medicine_Id" : "MED005",
+		"Medicine_Name" : "Metformin",
+		"Category" : "Antidiabetic",
+		"Supplier_Id" : "SUP002",
+		"Cost_Price" : 3.5,
+		"Unit_Price" : 7,
+		"Stock_Qty" : 250,
+		"Expiry_Date" : "2024-08-31",
+		"Manufacture_Date" : "2023-02-15",
+		"Batch_Number" : "BT56789",
+		"Reorder_Level" : 40
+	},
+	{
+		"Medicine_Id" : "MED006",
+		"Medicine_Name" : "Atorvastatin",
+		"Category" : "Cholesterol",
+		"Supplier_Id" : "SUP003",
+		"Cost_Price" : 6,
+		"Unit_Price" : 12,
+		"Stock_Qty" : 200,
+		"Expiry_Date" : "2024-07-31",
+		"Manufacture_Date" : "2023-05-03",
+		"Batch_Number" : "BT67890",
+		"Reorder_Level" : 35
+	},
+	{
+		"Medicine_Id" : "MED007",
+		"Medicine_Name" : "Salbutamol",
+		"Category" : "Bronchodilator",
+		"Supplier_Id" : "SUP001",
+		"Cost_Price" : 4.5,
+		"Unit_Price" : 9,
+		"Stock_Qty" : 180,
+		"Expiry_Date" : "2024-11-30",
+		"Manufacture_Date" : "2023-01-30",
+		"Batch_Number" : "BT78901",
+		"Reorder_Level" : 30
+	},
+	{
+		"Medicine_Id" : "MED008",
+		"Medicine_Name" : "Amlodipine",
+		"Category" : "Antihypertensive",
+		"Supplier_Id" : "SUP002",
+		"Cost_Price" : 5.5,
+		"Unit_Price" : 11,
+		"Stock_Qty" : 220,
+		"Expiry_Date" : "2024-10-31",
+		"Manufacture_Date" : "2023-02-25",
+		"Batch_Number" : "BT89012",
+		"Reorder_Level" : 40
+	},
+	{
+		"Medicine_Id" : "MED009",
+		"Medicine_Name" : "Diazepam",
+		"Category" : "Sedative",
+		"Supplier_Id" : "SUP003",
+		"Cost_Price" : 7,
+		"Unit_Price" : 14,
+		"Stock_Qty" : 150,
+		"Expiry_Date" : "2024-05-31",
+		"Manufacture_Date" : "2023-03-15",
+		"Batch_Number" : "BT90123",
+		"Reorder_Level" : 25
+	},
+	{
+		"Medicine_Id" : "MED010",
+		"Medicine_Name" : "Insulin",
+		"Category" : "Antidiabetic",
+		"Supplier_Id" : "SUP001",
+		"Cost_Price" : 15,
+		"Unit_Price" : 30,
+		"Stock_Qty" : 100,
+		"Expiry_Date" : "2024-04-30",
+		"Manufacture_Date" : "2023-01-20",
+		"Batch_Number" : "BT01234",
+		"Reorder_Level" : 20
+	}
+]
+}
+

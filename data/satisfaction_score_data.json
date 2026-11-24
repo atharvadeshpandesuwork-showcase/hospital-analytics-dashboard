@@ -1,0 +1,105 @@
+{
+	"table_name": "Satisfaction_Score",
+  	"total_records": 10,
+  	"columns": [
+		"Satisfaction_Id",
+		"Patient_Id",
+		"Doctor_Id",
+		"Rating",
+		"Feedback",
+		"Survey_Date",
+		"Department"
+  	],
+	"records":[
+	{
+		"Satisfaction_Id" : "SAT001",
+		"Patient_Id" : "P001",
+		"Doctor_Id" : "D001",
+		"Rating" : 4,
+		"Feedback" : "The doctor was very attentive and explained everything well.",
+		"Survey_Date" : "2023-05-20",
+		"Department" : "Cardiology"
+	},
+	{
+		"Satisfaction_Id" : "SAT002",
+		"Patient_Id" : "P002",
+		"Doctor_Id" : "D004",
+		"Rating" : 5,
+		"Feedback" : "Excellent care and treatment. very satisfied.",
+		"Survey_Date" : "2023-05-27",
+		"Department" : "Gynecology"
+	},
+	{
+		"Satisfaction_Id" : "SAT003",
+		"Patient_Id" : "P003",
+		"Doctor_Id" : "D007",
+		"Rating" : 3,
+		"Feedback" : "Treatment was good but had to wait too long.",
+		"Survey_Date" : "2023-06-03",
+		"Department" : "Gastroenterology"
+	},
+	{
+		"Satisfaction_Id" : "SAT004",
+		"Patient_Id" : "P004",
+		"Doctor_Id" : "D006",
+		"Rating" : 4,
+		"Feedback" : "Good diagnosis and treatment for my skin condition.",
+		"Survey_Date" : "2023-06-10",
+		"Department" : "Dermatology"
+	},
+	{
+		"Satisfaction_Id" : "SAT005",
+		"Patient_Id" : "P005",
+		"Doctor_Id" : "D003",
+		"Rating" : 5,
+		"Feedback" : "Very professional and the surgery was successful.",
+		"Survey_Date" : "2023-06-17",
+		"Department" : "Orthopedics"
+	},
+	{
+		"Satisfaction_Id" : "SAT006",
+		"Patient_Id" : "P006",
+		"Doctor_Id" : "D009",
+		"Rating" : 4,
+		"Feedback" : "Quick diagnosis and effective medication.",
+		"Survey_Date" : "2023-06-24",
+		"Department" : "Ent"
+	},
+	{
+		"Satisfaction_Id" : "SAT007",
+		"Patient_Id" : "P007",
+		"Doctor_Id" : "D010",
+		"Rating" : 5,
+		"Feedback" : "The doctor really understood my mental health concerns.",
+		"Survey_Date" : "2023-01-07",
+		"Department" : "Psychiatry"
+	},
+	{
+		"Satisfaction_Id" : "SAT008",
+		"Patient_Id" : "P008",
+		"Doctor_Id" : "D011",
+		"Rating" : 4,
+		"Feedback" : "Professional care and successful surgery.",
+		"Survey_Date" : "2023-08-07",
+		"Department" : "Urology"
+	},
+	{
+		"Satisfaction_Id" : "SAT009",
+		"Patient_Id" : "P009",
+		"Doctor_Id" : "D013",
+		"Rating" : 3,
+		"Feedback" : "Good treatment but communication could be better.",
+		"Survey_Date" : "2023-07-15",
+		"Department" : "Nephrology"
+	},
+	{
+		"Satisfaction_Id" : "SAT010",
+		"Patient_Id" : "P010",
+		"Doctor_Id" : "D006",
+		"Rating" : 5,
+		"Feedback" : "The skin treatment was very effective.",
+		"Survey_Date" : "2023-07-22",
+		"Department" : "Dermatology"
+	}
+	]
+}

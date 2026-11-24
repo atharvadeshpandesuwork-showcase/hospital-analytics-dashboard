@@ -1,0 +1,84 @@
+{
+	"table_name": "Suppliers",
+  	"total_records": 5,
+  	"columns": [
+		"Supplier_Id",
+		"Supplier_Name",
+		"Contact_Person",
+		"Phone_Number",
+		"Email_Address",
+		"Address",
+		"Pincode",
+		"State",
+		"Contract_Start_Date",
+		"Contract_End_Date",
+		"City"
+  	],
+	"records":[
+	{
+		"Supplier_Id" : "SUP001",
+		"Supplier_Name" : "Medipharm Distributors",
+		"Contact_Person" : "Rajesh Gupta",
+		"Phone_Number" : 9876543210,
+		"Email_Address" : "rajesh@medipharm.com",
+		"Address" : "Phase 1\" industrial area phase 1\"",
+		"Pincode" : 110001,
+		"State" : "Delhi",
+		"Contract_Start_Date" : "2023-01-01",
+		"Contract_End_Date" : "2024-12-31",
+		"City" : "Other"
+	},
+	{
+		"Supplier_Id" : "SUP002",
+		"Supplier_Name" : "Healthcare Supplies",
+		"Contact_Person" : "Priya Sharma",
+		"Phone_Number" : 8765432109,
+		"Email_Address" : "priya@healthcaresupplies.com",
+		"Address" : "Sector 5\"       business park sector 5\"",
+		"Pincode" : 400001,
+		"State" : "Maharashtra",
+		"Contract_Start_Date" : "2023-01-15",
+		"Contract_End_Date" : "2024-12-31",
+		"City" : "Nagpur"
+	},
+	{
+		"Supplier_Id" : "SUP003",
+		"Supplier_Name" : "Medicore Enterprises",
+		"Contact_Person" : "Amit Kumar",
+		"Phone_Number" : 7654321098,
+		"Email_Address" : "amit@medicore.com",
+		"Address" : "Zone 3\"    corporate hub   zone 3\"",
+		"Pincode" : 560001,
+		"State" : "Karnataka",
+		"Contract_Start_Date" : "2023-01-02",
+		"Contract_End_Date" : "2024-12-31",
+		"City" : "Mysuru"
+	},
+	{
+		"Supplier_Id" : "SUP004",
+		"Supplier_Name" : "Lifeline Pharmaceuticals",
+		"Contact_Person" : "Sneha Patel",
+		"Phone_Number" : 6543210987,
+		"Email_Address" : "sneha@lifeline.com",
+		"Address" : "Block b\" pharma valley block b\"",
+		"Pincode" : 600001,
+		"State" : "Tamil Nadu",
+		"Contract_Start_Date" : "2023-02-15",
+		"Contract_End_Date" : "2024-12-31",
+		"City" : "Madurai"
+	},
+	{
+		"Supplier_Id" : "SUP005",
+		"Supplier_Name" : "Meditech Solutions",
+		"Contact_Person" : "Vikram Singh",
+		"Phone_Number" : 5432109876,
+		"Email_Address" : "vikram@meditech.com",
+		"Address" : "Area 7\" tech park area 7\"",
+		"Pincode" : 500001,
+		"State" : "Telangana",
+		"Contract_Start_Date" : "2023-03-01",
+		"Contract_End_Date" : "2024-12-31",
+		"City" : "Khammam"
+	}
+	]
+}

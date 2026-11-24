@@ -1,0 +1,94 @@
+{
+	"table_name": "Beds",
+    "total_records": 10,
+    "columns": [
+        "Bed_Id",
+        "Room_Id",
+        "Status",
+        "Patient_Id",
+        "Occupied_From",
+        "Occupied_Till"
+    ],
+	"records":[
+	{
+		"Bed_Id" : "B001",
+		"Room_Id" : "R001",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B002",
+		"Room_Id" : "R001",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B003",
+		"Room_Id" : "R001",
+		"Status" : "Occupied",
+		"Patient_Id" : "P007",
+		"Occupied_From" : "2023-05-27",
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B004",
+		"Room_Id" : "R001",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B005",
+		"Room_Id" : "R002",
+		"Status" : "Occupied",
+		"Patient_Id" : "P010",
+		"Occupied_From" : "2023-06-08",
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B006",
+		"Room_Id" : "R003",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B007",
+		"Room_Id" : "R004",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B008",
+		"Room_Id" : "R004",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B009",
+		"Room_Id" : "R004",
+		"Status" : "Occupied",
+		"Patient_Id" : "P013",
+		"Occupied_From" : "2023-06-20",
+		"Occupied_Till" : null
+	},
+	{
+		"Bed_Id" : "B010",
+		"Room_Id" : "R004",
+		"Status" : "Available",
+		"Patient_Id" : null,
+		"Occupied_From" : null,
+		"Occupied_Till" : null
+	}
+]
+}
